@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	/*background-image:url(img/u=739762136,4160808830&fm=21&gp=0.jpg);*/
+	background-image:url(img/u=739762136,4160808830&fm=21&gp=0.jpg);
+	background-size:100% 100%;	
+	repeat:fixed;
+	background-color:#CCC;
+}
+div,p{
+	margin:0px;
+	padding:0px;	
+}
+a{
+	text-decoration:none;	
+}
+a:hover{
+	color:#F33;
+}
+li{
+	border:0px none;
+	list-style:outside none none;
+	margin:0px;
+	padding:0px;	
+}
+fieldset,img{
+	border:0px none;	
+}
+.top{
+	background-image:url(../img/u=426721612,1396791042&fm=21&gp=0.jpg);
+	margin-left:10%;
+	margin-right:10%;
+}
+.ph_photo{
+	position:relative;
+	width:100px;
+	height:100px;
+	margin:20px auto 0px;
+	padding:4px;
+	background:rgba(255,255,255,0.3) none repeat scroll 0% 0%;
+	border-radius:50%;	
+}
+.photo_wrap{
+		
+}
+.image{
+	width:100px;
+	height:100px;
+	border-radius:50%;	
+}
+p.top_font{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;	
+	font-size:36px;
+}
+.href{
+	height:30px;
+	width:70px;
+	widows:40px;
+	text-decoration:none;
+	float:right;
+	font-size:16px;
+	margin-right:10px;
+	color:#000;
+}
+.dbody{
+	
+	margin-top:10px;
+	height:1000px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.body_left{
+	width:33%;	
+	float:left;
+}
+.left_inform{
+	position:fixed;
+	width:27%;
+	background:#CFF;
+	margin-top:10px;
+}
+.left_img{
+
+}
+.line{
+	display:block;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	border-top-style:solid;
+	border-top-width:1px;
+	text-decoration:none;
+	color:#033;
+	border-color:#D9D9D9;	
+	font-size:12px;
+	letter-spacing:normal;
+	word-spacing:normal;
+}
+.head a{
+	overflow:hidden;
+	display:block;
+	float:none;
+	font-family:"【团子】请叫我天然萌 微博@团团团团团团团儿" !important;
+	
+	text-align:center;
+	color:#96C;
+	font-size:16px;
+	border-bottom:2px solid #DEDEDE;
+		
+}
+.head a:hover{
+	color:#F33;
+}
+.label{
+	display:block;
+	height:30px;
+	float:left;
+	width:100px;
+	padding-right:5px;	
+}
+.required{
+	font-size:16px;
+	color:#F00;
+	font-family:Tahoma, Geneva, sans-serif;
+	vertical-align:middle;
+	margin-right:2px;
+	font-weight:400;	
+}
+.body_right{
+	width:65%;
+	float:left;
+	margin-left:2%;
+}
+.right{
+	margin-bottom:10px;
+	background:#FFC;
+	box-shadow:0px 0px 2px rgba(0,0,0,0.2);
+	margin:0px 0px 10px;
+	border-radius:2px;
+}
+li.li{
+	height:auto;
+	width:70px;		
+}
+.ph_username{
+	margin-top:6px;
+	color:#FFF;
+	text-align:center;
+	text-shadow:0px 0px 4px rgba(0,0,0,0.5);
+}
+.username{
+	font-size:22px;
+	display:inline;	
+}
+.send_weibo{
+	margin:0px 0px 10px;
+	box-shadow:0px 0px 2px rgba(0,0,0,0.15);
+	border-radius:2px;
+	padding:15px 10px 10px;
+	height:140px;
+	overflow:hidden;
+	display:block;	
+}
+w_title{
+	position:relative;
+	overflow:hidden;
+	height:21px;
+	display:block;	
+}
+.tittle{
+	outline-style:none;
+	font:16px/16px Tahoma;
+	float:left;
+	width:200px;
+	height:21px;
+}
+.txt{
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+	font-size:18px !important;
+	color:#96C;
+	font-family:"【团子】请叫我天然萌 微博@团团团团团团团儿" !important;
+}
+em{
+	font-style:normal;
+	font-weight:normal;
+}
+.speak1{
+	display:inline-block;
+	vertical-align:top;
+	height:21px;
+	letter-spacing:-3px;
+}
+.speak2{
+	display:inline-block;
+	vertical-align:top;
+	height:21px;
+	letter-spacing:4px;
+}
+.speak3{
+	display:inline-block;
+	vertical-align:top;
+	height:21px;
+	letter-spacing:-3.8px;
+}
+.speak4{
+	display:inline-block;
+	vertical-align:top;
+	height:18px;
+	padding:3px 0px 0px 4px;
+}
+.input{
+	background-color:#FFF;
+	border-color:#CCC;
+	position:relative;
+	border-width:1px;
+	border-style:solid;
+	height:68px;
+	margin:4px 0px 0px;
+	padding:5px;
+	box-shadow:0px 0px 3px 0px rbga(0,0,0,0.15) inset;	
+}
+.w_input{
+	background:transparent none repeat scroll 0% 0%;
+	width:100%;
+	height:68px;
+	font-size:14px;
+	line-height:18px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	word-wrap:break-word;
+	outline:medium none;
+	border:medium none;
+	padding:0px;
+	box-shadow:none;
+}
+.sub_area{
+	display:block;
+}	
+.func{
+	float:right;
+	padding:5px 0px 0px;
+	text-align:right;
+	width:200px;
+	white-space:nowrap;
+}
+.submit{
+	background-color:#936 none repeat scroll 0% 0%;
+	color:#63F;
+	text-align:center;
+	border:1px solid #C39;
+	box-shadow:none;
+	cursor:default;
+	display:inline-block;
+	height:28px;
+	line-height:29px;
+	width:60px;
+	font-size:14px;	
+}
+.padding{
+	padding:10px 16px 10px 10px;
+}
+.wb_detail{
+	margin-left:60px;
+	font-size:12px;
+	word-spacing:normal;
+	letter-spacing:normal;
+}
+.wb_head{
+	margin:0px 0px 3px;
+	padding:5px 0px 0px;
+}
+.wb_href{
+	font-size:14px;
+	font-weight:700;
+}
+.wb_face{
+	width:50px;
+	float:left;	
+}
+.wb_face img{
+	width:50px;
+	height:50px;
+	border:0px none;
+	border-radius:50%;
+}
+.w_face_radius{
+	border-radius:50%;
+}
+.wb_body{
+	padding:1px 0px 3px;
+	overflow:hidden;
+	line-height:23px;
+	word-wrap:break-word;
+	font-size:14px;
+	letter-spacing:normal;
+	word-spacing:normal;
+}
+.wb_font{
+	overflow:hidden;
+	letter-spacing:normal;
+	word-spacing:normal;
+	font-size:12px;
+}
+.wb_row{
+	border-top-width:2px;
+	border-top-style:solid;
+	display:block;
+	list-style:outside none none;
+	border-color:#CCC;
+}
+.wb_row li{
+	width:15%;
+	float:right;
+	height:20px;	
+}
+.wb_txt1{
+	color:#333;
+	text-align:center;
+	margin-right:5px;
+	padding:1px 0px;
+	margin:0px 0px 0px 1px;
+	display:block;
+}

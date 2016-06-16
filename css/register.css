@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../img/u=3595088221,2778895361&fm=21&gp=0.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+a {
+	text-decoration:none;	
+	font-size:13px;
+}
+input,select,textarea{
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin:0px;
+	outline:0px none;	
+}
+.tittle{
+	margin-top:30px;
+	margin-left:50px;
+	font-size:36px;
+	font-color:#06C;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.register-box{
+	margin-top:150px;
+	border-width:2px;
+	border-style:solid;
+	border-color:#09F #CCCCFF #CCCCFF;
+	padding:20px 30px 30px;
+	width:400px;
+	float:right;
+	margin-right:150px;
+		
+}
+.head h2{
+	overflow:hidden;
+	display:block;
+	float:none;
+	text-align:center;
+	color:#000;
+	font-size:14px;
+	border-bottom:2px solid #DEDEDE;
+		
+}
+.required{
+	font-size:16px;
+	color:#F00;
+	font-family:Tahoma, Geneva, sans-serif;
+	vertical-align:middle;
+	margin-right:2px;
+	font-weight:400;	
+}
+div,li{
+	border:0px none;
+	list-style:outside none none;
+	margin:0px;
+	padding:0px;	
+}
+.list li{
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+}
+.list .label{
+	display:block;
+	height:30px;
+	float:left;
+	width:100px;
+	padding-right:5px;	
+}
+.list .text{
+	float:left;	
+}
+.inptxt{
+	height:18px;
+	width:195px;
+	margin-right:20px;
+	line-height:18px;
+	border:1px solid #09C;
+	background:none repeat scroll 0% 0%;
+	padding:5px 0px 5px 5px;	
+}
+.submit button{
+	width:250px;
+	height=37px;
+	border:0px naone;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+	line-height:26px;
+	font-size:16px;
+	font-weight:700;
+	color:#FFF;
+	background:#9C0 none repeat scroll 0% 0%;
+	border-radius:3px;
+	cursor:pointer;	
+	font:100% Tahoma, Geneva, sans-serif;	
+	margin-left:70px;
+}
